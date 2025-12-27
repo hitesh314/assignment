@@ -1,0 +1,28 @@
+{
+  "name": "crew-assignment-engine",
+  "version": "1.0.0",
+  "description": "Async Content Summarizer Processing Engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "redis": "^4.6.15",
+    "amqplib": "^0.10.4",
+    "node-cron": "^3.0.3",
+    "openai": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/amqplib": "^0.10.5",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.5.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.4"
+  }
+}

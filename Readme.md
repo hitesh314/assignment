@@ -1,3 +1,8 @@
+## Video Explanation
+
+- **Part1:** [https://www.loom.com/share/119b488a0b094885b2b5e62cf610fab9](https://www.loom.com/share/119b488a0b094885b2b5e62cf610fab9)
+- **Part2:** [https://www.loom.com/share/12db25ec945942ceab49280bc88e551f](https://www.loom.com/share/12db25ec945942ceab49280bc88e551f)
+
 Hi, here is the approach to solve the problem:
 For this requirements, we will use rabbitmq for queue service, mongodb for datastorage, and Node js built in job scheduler to pick up tasks:
 Here is the flow:
